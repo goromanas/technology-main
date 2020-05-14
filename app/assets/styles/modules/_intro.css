@@ -1,0 +1,28 @@
+.intro {
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    &__title {
+        font-size: 1.5625rem;
+        font-weight: 100;
+    }
+
+    &__subtitle {
+        font-size: 1.5625rem;
+        font-weight: 500;
+    }
+
+    &__content-wrapper {
+        margin-top: 30px;
+        max-width: 510px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__content{
+        font-weight: 300;
+        color: $lightBlue;
+    }
+}
